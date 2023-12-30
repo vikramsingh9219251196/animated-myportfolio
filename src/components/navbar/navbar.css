@@ -1,0 +1,53 @@
+
+.navbar{
+    width: 100%;
+}
+.wrapper{
+    display: flex;
+    justify-content:space-around;
+    margin:30px 0px;
+}
+span{
+font-weight: 900;
+}
+.developer{
+margin-right: 55vw;
+}
+.social{
+display: flex;
+justify-content: space-around;
+gap:10px;
+}
+.social>a{
+text-decoration: none;
+}
+img{
+width: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+.developer{
+margin-right: 20vw;
+}   
+}
+
+ @media screen and (max-width: 800px) {
+
+    .wrapper{
+    justify-content: flex-end;
+     padding: 10px;
+    }
+    .developer{
+        display: none;
+    }
+  
+}
+     @media screen and (max-width: 400px) {
+       .wrapper{
+        gap:40px;
+        font-size: 15px;
+       }
+    } 
+
+
+
