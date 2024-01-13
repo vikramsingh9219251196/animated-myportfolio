@@ -32,7 +32,7 @@ const Contact = () => {
     emailjs
       .send(
        "service_1hb6xn4",
-       "template_vqzvk5u",
+       "template_2vt2mhr",
         {
           from_name: form.name,
           to_name: "JavaScript Mastery",
