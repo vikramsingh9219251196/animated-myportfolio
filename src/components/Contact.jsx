@@ -32,12 +32,12 @@ const Contact = () => {
     emailjs
       .send(
        "service_1hb6xn4",
-       "template_2vt2mhr",
+       "template_vqzvk5u",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Vikram Singh",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "bobvik2003@gmail.com",//sujata@jsmastery.pro
           message: form.message,
         },
         "mkrGLlFKQL_tLsUBs"
